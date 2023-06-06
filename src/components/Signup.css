@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    background-size: cover;
+}
+
+body {
+    background:url(../images/connection-wallpaper-1920x1080.jpg)
+    ;
+}
+
+.main {
+    position: absolute;
+    top: 18%;
+    left: 35%;
+    height: 67%vh;
+    width: 30%vw;
+
+
+    /* box-shadow: 0 4px 8px 0 rgba(212, 175, 175, 0.2), 0 6px 20px 0 rgba(197, 150, 150, 0.19);
+} */
+}
+
+#heading {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: lighter;
+    color: white;
+
+}
+
+#para {
+    text-align: center;
+    padding-top: 50px;
+    color: azure;
+}
+select{
+    padding: 10px;
+    margin: 5px;
+    margin-left: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    border-width: 1px;
+    background: transparent;
+    color: black;
+    font-size: 17px;
+    letter-spacing: 2px;
+    height: 43px;
+    width: 30vw;
+}
+
+#name {
+    height: 43px;
+    width: 30vw;
+}
+
+#lastname {
+    margin-left: 15px;
+    height: 43px;
+    width: 208px;
+}
+#role{
+    font-weight: lighter;
+}
+#email {
+    height: 43px;
+    width: 30vw;
+}
+
+#pass {
+    height: 43px;
+    width: 30vw;
+}
+
+#cpass {
+    height: 43px;
+    width: 440px;
+}
+
+#myform {
+    padding: 45px;
+}
+
+#Rbtn {
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    width: 8vw;
+    /* background: rgb(57, 205, 57); */
+    color: white;
+    margin-bottom: 17px;
+    font-size: medium;
+    text-align: center;
+    opacity: .8;
+    margin-left: 15rem;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* button:hover {
+   
+} */
+
+input {
+    padding: 10px;
+    margin: 5px;
+    margin-left: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    border-width: 1px;
+    background: transparent;
+    color: black;
+    font-size: 17px;
+    letter-spacing: 2px;
+
+    /* border:none; */
+}
+
+#btn3 {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input:hover {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.forms {
+/* 
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%); */
+    width: 40vw;
+    margin-left: 550px;
+    margin-top: 200px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border-radius: 10px;
+}
